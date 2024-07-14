@@ -92,7 +92,7 @@ const HeaderV4 = ({ logoColor = false }) => {
 
     return (
         <>
-            <HeaderTopV1 />
+            {/* <HeaderTopV1 /> */}
             <header>
                 <nav className={`navbar mobile-sidenav navbar-default validnavs dark ${isSticky ? "sticked" : "no-background"}`}>
                     <HeaderSearch openSearch={openSearch} searchClose={searchClose} />

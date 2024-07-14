@@ -7757,10 +7757,13 @@ footer {
 	background-repeat: no-repeat;
 	background-position: right bottom;
 }
-
+.logo img{
+	mix-blend-mode: multiply;
+}
 footer img.logo {
 	height: 60px;
 	margin-bottom: 30px;
+	mix-blend-mode: multiply;
 }
 
 footer .f-item p {

@@ -20,12 +20,11 @@ const BlogV3 = () => {
                                 <div className="col-xl-6 col-lg-6 pr-50 pr-md-15 pr-xs-15 mt--80 mt-md-0 mt-xs-0">
                                     <div className="information">
                                         <ReactWOW animation='fadeInUp' duration="400ms" delay="500ms">
-                                            <h2>Increase sales <br /> with <strong>digital</strong> marketing</h2>
+                                            <h2>Empower <br /> <strong>Your</strong> Digital Transformation</h2>
                                         </ReactWOW>
                                         <ReactWOW animation='fadeInUp' delay="900ms" duration="400ms">
                                             <p>
-                                                Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable.
-                                            </p>
+                                            At Xumul, we are revolutionizing the landscape of accelerated digital transformation through cutting-edge Artificial Intelligence and streamlined process systematization.                                            </p>
                                         </ReactWOW>
                                         <ReactWOW animation='fadeInDown' delay="1200ms" duration="400ms">
                                             <div className="newsletter-form">
@@ -40,9 +39,9 @@ const BlogV3 = () => {
                                 <div className="col-xl-6 col-lg-6 pl-60 pl-md-15 pl-xs-15">
                                     <div className="thumb">
                                         <ReactWOW animation='fadeInDown'>
-                                            <img src="/img/illustration/2.png" alt="Thumb" />
+                                            <img src="/img/illustration/3.jpg" alt="Thumb"  style={{width: "540px", height: "550px", objectFit: "cover"}}/>
                                         </ReactWOW>
-                                        <img src="/img/illustration/3.png" alt="Image Not Found" />
+                                        <img src="/img/illustration/3.jpg" alt="Image Not Found" />
                                         <div className="progress-card">
                                             <div className="icon">
                                                 <i className="flaticon-startup-5"></i>
