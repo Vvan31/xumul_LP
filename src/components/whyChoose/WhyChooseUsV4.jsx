@@ -17,21 +17,21 @@ const WhyChooseUsV4 = () => {
                     <div className="row">
                         <div className="col-lg-7 choose-us-style-one">
                             <h4 className="sub-title">Why Choose Us</h4>
-                            <h2 className="title">Were on a mission <br /> to your business grow</h2>
-                            <div className="choose-us-thumb mt-50 mt-xs-40">
+                            <h2 className="title">Unlock your business’s full potential</h2>
+                            <div className="choose-us-thumb mt-xs-10">
                                 <ReactWOW animation='fadeInUp'>
-                                    <img src="/img/illustration/6.png" alt="Image Not Found" />
+                                    <img src="/img/illustration/6.png" alt="Image Not Found" style={{ opacity:"0", height:"400px" }}/>
                                 </ReactWOW>
                                 <ReactWOW animation='fadeInDown'>
-                                    <img src="/img/illustration/7.png" alt="Image Not Found" />
+                                    <img src="/img/illustration/cloud-comp.png" alt="Image Not Found" style={{height:"300px"}} />
                                 </ReactWOW>
                                 <ReactWOW animation='fadeInRight'>
-                                    <img src="/img/illustration/5.png" alt="Image Not Found" />
+                                    <img src="/img/illustration/ai-arrow.jpg" alt="Image Not Found" />
                                 </ReactWOW>
                             </div>
                         </div>
                         <div className="col-lg-5 pl-70 pl-md-15 pl-xs-15 choose-us-style-one">
-                            <div className="curve-text">
+                            {/* <div className="curve-text">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" version="1.1">
                                     <path id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
                                     <text><textPath href="#textPath">Award Winning Agency</textPath></text>
@@ -40,7 +40,7 @@ const WhyChooseUsV4 = () => {
                                 <Link className="popup-youtube" onClick={() => setOpen(true)}>
                                     <i className="fa-solid fa-play"></i>
                                 </Link>
-                            </div>
+                            </div> */}
                             <ul className="feature-process mt-75 mt-xs-0">
                                 {WhyChooseUsV4Data.map(choose =>
                                     <SingleChooseV3 choose={choose} key={choose.id} />

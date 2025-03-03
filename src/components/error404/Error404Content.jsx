@@ -13,9 +13,7 @@ const Error404Content = () => {
                             <div className="col-lg-8 offset-lg-2">
                                 <h1>404</h1>
                                 <h2>Sorry Page Was Not Found!</h2>
-                                <p>
-                                    Household shameless incommode at no objection behaviour. Especially do at he possession insensible sympathize boisterous it. Songs he on an widen me event truth.
-                                </p>
+                                
                                 <Link className="btn mt-20 btn-md btn-theme" to="/#">Back to home</Link>
                             </div>
                         </div>

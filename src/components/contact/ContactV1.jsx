@@ -6,17 +6,17 @@ const ContactV1 = ({ contactClass }) => {
     return (
         <>
             <div className={`contact-area overflow-hidden default-padding ${contactClass}`} style={{ backgroundImage: "url(/img/shape/map.png)" }}>
-                <div className="shape-right-bottom">
+                {/* <div className="shape-right-bottom">
                     <img src="/img/shape/18.png" alt="Shape" />
-                </div>
+                </div> */}
                 <div className="container">
                     <div className="row align-center">
                         <div className="col-tact-stye-one col-lg-5">
                             <ContactInfo />
                         </div>
-                        <div className="col-tact-stye-one col-lg-6 offset-lg-1">
+                        {/* <div className="col-tact-stye-one col-lg-6 offset-lg-1">
                             <ContactForm />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

@@ -4,10 +4,8 @@ import { HashLink as Link } from 'react-router-hash-link';
 const SocialShare2 = () => {
     return (
         <>
-            <li><Link to="http://facebook.com" target='_blank' ><i className="fab fa-facebook-f"></i></Link></li>
-            <li><Link to="http://twitter.com" target='_blank' ><i className="fab fa-twitter"></i></Link></li>
-            <li><Link to="https://www.pinterest.com" target='_blank' ><i className="fab fa-pinterest"></i></Link></li>
-            <li><Link to="https://www.linkedin.com" target='_blank' ><i className="fab fa-linkedin-in"></i></Link></li>
+            <li><Link to="https://www.instagram.com/xumulsolutions?igsh=dnltOWpubnN0NHZ2" target='_blank' ><i className="fab fa-instagram"></i></Link></li>
+            <li><Link to="https://www.linkedin.com/company/xumul-solutions-corporation" target='_blank' ><i className="fab fa-linkedin-in"></i></Link></li>
         </>
     );
 };

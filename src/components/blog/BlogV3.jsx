@@ -5,14 +5,15 @@ import ReactWOW from 'react-wow';
 const BlogV3 = () => {
 
     const handleEmail = (event) => {
-        event.preventDefault()
-        event.target.reset()
-        toast.success("Thanks for Your Email")
+        event.preventDefault();
+        // Open user's email client with a pre-filled subject and body
+        window.location.href = `mailto:xumulsolutions@gmail.com?subject=Subscription Request&body=Hello, I would like to know more about Xumul!`;
+        event.target.reset();
     }
 
     return (
         <>
-            <div className="banner-style-three-area overflow-hidden" style={{ backgroundImage: "url(/img/shape/banner-5.jpg)" }}>
+            <div className="banner-style-three-area overflow-hidden" style={{ backgroundImage: "url(/img/shape/banner-3.jpg)" }}>
                 <div className="banner-style-three pt-150 pt-md-120 pt-xs-60">
                     <div className="container">
                         <div className="content">
@@ -29,8 +30,7 @@ const BlogV3 = () => {
                                         <ReactWOW animation='fadeInDown' delay="1200ms" duration="400ms">
                                             <div className="newsletter-form">
                                                 <form onSubmit={handleEmail}>
-                                                    <input type="email" placeholder="Your Email" className="form-control" name="email" autoComplete='off' required />
-                                                    <button type="submit">Get Started</button>
+                                                    <button type="submit">Get in contact</button>
                                                 </form>
                                             </div>
                                         </ReactWOW>
@@ -39,16 +39,14 @@ const BlogV3 = () => {
                                 <div className="col-xl-6 col-lg-6 pl-60 pl-md-15 pl-xs-15">
                                     <div className="thumb">
                                         <ReactWOW animation='fadeInDown'>
-                                            <img src="/img/illustration/3.jpg" alt="Thumb"  style={{width: "540px", height: "550px", objectFit: "cover"}}/>
+                                            <img src="/img/illustration/33.png" alt="Thumb"  style={{width: "540px", height: "550px", objectFit: "cover"}}/>
                                         </ReactWOW>
-                                        <img src="/img/illustration/3.jpg" alt="Image Not Found" />
                                         <div className="progress-card">
                                             <div className="icon">
                                                 <i className="flaticon-startup-5"></i>
                                             </div>
                                             <div className="info">
-                                                <p>Sale Increase</p>
-                                                <h4>+128%</h4>
+                                                <p>Ready in just 4 weeeks!</p>
                                             </div>
                                         </div>
                                     </div>
