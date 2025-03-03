@@ -64,17 +64,16 @@ const HeaderV3 = ({ logoColor = false }) => {
                 <nav className={`navbar mobile-sidenav navbar-sticky navbar-default validnavs navbar-fixed dark no-background ${isSticky ? "sticked" : ""}`}>
                     <div className="container-fill d-flex justify-content-between align-items-center">
                         <HeaderLogoV1 logoColor={logoColor} openMenu={openMenu} />
-                        <MainMenu isOpen={isOpen} closeMenu={closeMenu} toggleSubMenu={toggleSubMenu} toggleMegaMenu={toggleMegaMenu} />
+                        {/* <MainMenu isOpen={isOpen} closeMenu={closeMenu} toggleSubMenu={toggleSubMenu} toggleMegaMenu={toggleMegaMenu} /> */}
                         <div className="attr-right">
                             <div className="attr-nav">
                                 <ul>
                                     <li className="button">
-                                        <Link to="/contact-us#">Free Trial</Link>
-                                        <Link to="/contact-us#">Login</Link>
+                                        <a href = "mailto:xumulsolutions@gmail.com?subject=Subscription Request&body=Hello, I would like to know more about Xumul!">Contact us</a>
                                     </li>
                                 </ul>
                             </div>
-                            <div className={`overlay-screen ${isOpen ? "opened" : ""}`}></div>
+                            {/* <div className={`overlay-screen ${isOpen ? "opened" : ""}`}></div> */}
                         </div>
                     </div>
                 </nav>

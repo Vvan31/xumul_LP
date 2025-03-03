@@ -14,7 +14,7 @@ const FooterV1 = () => {
     return (
         <>
             <footer className="bg-dark text-light" style={{ backgroundImage: "url(/img/shape/5.png)" }}>
-                <div className="container">
+                {/* <div className="container">
                     <div className="f-items default-padding-bottom pt-70 pt-xs-0">
                         <div className="row">
                             <div className="col-lg-3 col-md-6 footer-item mt-50">
@@ -100,14 +100,14 @@ const FooterV1 = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="footer-bottom bg-dark text-light text-center">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <p>
-                                    Copyright &copy; {(new Date().getFullYear())} ValidThemes. All Rights Reserved
+                                    Copyright &copy; {(new Date().getFullYear())} Xumul Solutions
                                 </p>
                             </div>
                         </div>

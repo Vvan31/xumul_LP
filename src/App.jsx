@@ -38,7 +38,7 @@ function App() {
       {isLoading ? <Preloader /> :
         <div>
           <Helmet>
-            <title>ITComplements - Digital transformation company</title>
+            <title>Xumul - Accelerated Digital Transformation</title>
             <link rel="shortcut icon" href="/img/others/favicon.ico"></link>
           </Helmet>
           <Routers />

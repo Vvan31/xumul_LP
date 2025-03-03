@@ -13,11 +13,12 @@ const SingleServicesV1 = ({ service }) => {
         <>
             <div className="services-style-one">
                 <img src={`/img/icon/${iconName}`} alt="Icon" />
-                <Link to={`/${serviceLink}/${id}#`} className="btn-arrow">
+            {/* <Link to={`/${serviceLink}/${id}#`} className="btn-arrow">
                     <i className={icon2}></i>
-                </Link>
-                <p>{text}</p>
+                </Link> */}
                 <h4><Link to={`/${serviceLink}/${id}#`}>{title}</Link></h4>
+                <p>{text}</p>
+                
             </div>
         </>
     );

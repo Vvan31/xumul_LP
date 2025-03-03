@@ -2,61 +2,31 @@
     {
         "id": 1,
         "icon1": "1.png",
-        "icon1Dark": "target.png",
+        "icon1Dark": "accelerated_digital transformation.png",
         "thumb": "1-full.jpg",
         "icon2": "fas fa-long-arrow-right",
-        "text": "Continued at up zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet melancho themselves.",
-        "title": "Marketing Strategy",
+        "text": "We use a methodology to empower users who are experts in the processes, allowing you to configure and adjust the system yourself according to the needs of your company, without depending on expensive developers or specialized technicians.",
+        "title": "Accelerated systemization of business processes",
         "serviceLink": "services-details"
     },
     {
         "id": 2,
         "icon1": "2.png",
-        "icon1Dark": "envelope.png",
+        "icon1Dark": "ai_document_control.png",
         "thumb": "2-full.jpg",
         "icon2": "fas fa-long-arrow-right",
-        "text": "Continued at up zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet melancho themselves.",
-        "title": "Enterprise Consulting",
+        "text": "With our management control, you can organize and monitor all your documents in one place, ensuring a more agile workflow and unprecedented document management.",
+        "title": "Management control, digital documents and files",
         "serviceLink": "services-details"
     },
     {
         "id": 3,
         "icon1": "3.png",
-        "icon1Dark": "analytics.png",
+        "icon1Dark": "data_analytics.png",
         "thumb": "3-full.jpg",
         "icon2": "fas fa-long-arrow-right",
-        "text": "Continued at up zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet melancho themselves.",
-        "title": "Growth Tracking",
-        "serviceLink": "services-details"
-    },
-    {
-        "id": 4,
-        "icon1": "4.png",
-        "icon1Dark": "4.png",
-        "thumb": "4-full.jpg",
-        "icon2": "fas fa-long-arrow-right",
-        "text": "Continued at up zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet melancho themselves.",
-        "title": "SEO Optimization",
-        "serviceLink": "services-details"
-    },
-    {
-        "id": 5,
-        "icon1": "5.png",
-        "icon1Dark": "5.png",
-        "thumb": "5-full.jpg",
-        "icon2": "fas fa-long-arrow-right",
-        "text": "Continued at up zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet melancho themselves.",
-        "title": "PPC Advertising",
-        "serviceLink": "services-details"
-    },
-    {
-        "id": 6,
-        "icon1": "6.png",
-        "icon1Dark": "6.png",
-        "thumb": "6-full.jpg",
-        "icon2": "fas fa-long-arrow-right",
-        "text": "Continued at up zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet melancho themselves.",
-        "title": "Digital Marketing",
+        "text": "We specialize in artificial intelligence applied to data analysis, providing valuable insights that allow companies to make more informed and strategic decisions. We offer Business Intelligence solutions that integrate AI to transform large volumes of data into useful and actionable information.",
+        "title": "Data Science",
         "serviceLink": "services-details"
     }
 ]

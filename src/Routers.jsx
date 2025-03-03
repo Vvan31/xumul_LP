@@ -35,7 +35,8 @@ const Routers = () => {
     return (
         <>
             <Routes>
-                {/* <Route path='/' element={<Home1 />}></Route> */}
+                <Route path='/' element={<Home3 />}></Route>
+                {/* <Route path='/home-1' element={<Home1 />}></Route> 
                 <Route path='/' element={<Business />}></Route>
                 <Route path='/home-2' element={<Home2 />}></Route>
                 <Route path='/home-3' element={<Home3 />}></Route>
@@ -69,7 +70,7 @@ const Routers = () => {
                 <Route path='/blog-single/:id' element={<BlogSingle />}></Route>
                 <Route path='/blog-single' element={<Navigate to='/blog-single/1' />}></Route>
                 <Route path='/blog-single-sidebar/:id' element={<BlogSingleSidebar />}></Route>
-                <Route path='/blog-single-sidebar/' element={<Navigate to='/blog-single-sidebar/1' />}></Route>
+                <Route path='/blog-single-sidebar/' element={<Navigate to='/blog-single-sidebar/1' />}></Route> */}
                 <Route path='*' element={<Error404 />}></Route>
             </Routes>
         </>
